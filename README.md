@@ -1,4 +1,4 @@
-# china-shock-europe
+# China-Shock-Europe
 Replicating Autor, Dorn &amp; Hanson (2013) on European trade data using Python
 # The China Shock in Europe
 ### Replicating Autor, Dorn & Hanson (2013) on European Trade Data
