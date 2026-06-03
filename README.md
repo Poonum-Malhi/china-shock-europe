@@ -23,6 +23,7 @@ compounding effect of the 2010 Eurozone debt crisis.
 - **Estimation:** OLS regression (statsmodels)
 - **Replication basis:** Autor, Dorn & Hanson (2013), AER
 
+
 ## Main Results
 
 | Finding | Value |
@@ -48,5 +49,8 @@ Autor, D., Dorn, D., & Hanson, G. (2013). The China Syndrome: Local Labor
 Market Effects of Import Competition in the United States. 
 *American Economic Review*, 103(6), 2121–2168.
 
+## Interactive Map Image Visualization:
+
+https://nbviewer.org/github/Poonum-Malhi/china-shock-europe/blob/main/01_data_collection.ipynb 
 ---
 *Built as part of an Economics × AI research
