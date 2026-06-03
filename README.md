@@ -49,5 +49,4 @@ Market Effects of Import Competition in the United States.
 *American Economic Review*, 103(6), 2121–2168.
 
 ---
-*Built as part of an Economics × AI research portfolio targeting 
-World Bank and OECD internships.*
+*Built as part of an Economics × AI research
