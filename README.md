@@ -54,3 +54,38 @@ Market Effects of Import Competition in the United States.
 https://nbviewer.org/github/Poonum-Malhi/china-shock-europe/blob/main/01_data_collection.ipynb 
 ---
 *Built as part of an Economics × AI research
+
+----
+## Addendum — Panel Extension (July 2026)
+
+The original analysis above tests a single-year cross-section (12 countries, 2015). This addendum
+extends it to a full panel to check whether the null result is robust to a larger sample.
+
+### Methodology
+
+A shift-share exposure index was built following Autor, Dorn and Hanson (2013): each country's fixed
+2001 manufacturing share of GDP, interacted with China's time-varying exports of goods and services,
+2001–2022. This was regressed on unemployment with two-way fixed effects (country and year), standard
+errors clustered by country.
+
+### Results
+
+| Specification | Coefficient | p-value | Observations |
+|---|---|---|---|
+| Original (2015 cross-section) | -0.264 | 0.190 | 12 |
+| Pooled OLS, no fixed effects | -0.040 | 0.202 | 264 |
+| Two-way fixed effects panel | -0.107 | 0.544 | 264 |
+
+### Interpretation
+
+Unlike a companion extension of the GVC/Reshoring analysis (Part 5/6 of this series), where expanding
+the sample turned a non-significant subsample result into a significant one, expanding this China Shock
+analysis to 264 country-year observations does **not** produce significance — if anything, adding fixed
+effects moves the result further from significance. This is treated as evidence that the China Shock
+null result is a genuine null, not merely a product of insufficient statistical power in the original
+12-country sample.
+
+### Data
+
+World Bank WDI: manufacturing value added (% GDP, `NV.IND.MANF.ZS`), unemployment rate
+(`SL.UEM.TOTL.ZS`), China's exports of goods and services (`NE.EXP.GNFS.CD`), 2001–2022.
